@@ -1,0 +1,11 @@
+2025-10-15 06:58:50,936 | [ERROR] | smart_agri_logger | cropslist | Line 48 | Error inserting crop: time data '12-10-25' does not match format '%Y-%m-%d'
+2025-10-15 06:59:28,694 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-10-15 06:59:28,698 | [ERROR] | smart_agri_logger | cropslist | Line 48 | Error inserting crop: 'status' is an invalid keyword argument for CropListing
+2025-10-15 07:00:08,231 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-10-15 07:00:08,248 | [ERROR] | smart_agri_logger | cropslist | Line 48 | Error inserting crop: name 'status' is not defined
+2025-10-15 07:00:59,655 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-10-15 07:00:59,657 | [ERROR] | smart_agri_logger | cropslist | Line 48 | Error inserting crop: name 'status' is not defined
+2025-10-15 07:01:15,595 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-10-15 07:04:53,717 | [ERROR] | smart_agri_logger | cropslist | Line 48 | Error inserting crop: unconverted data remains: =3
+2025-10-15 07:05:22,847 | [ERROR] | smart_agri_logger | cropslist | Line 48 | Error inserting crop: unconverted data remains: =3
+2025-10-15 07:06:06,421 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
