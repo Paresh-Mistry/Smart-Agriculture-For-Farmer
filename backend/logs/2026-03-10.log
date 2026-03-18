@@ -1,0 +1,4 @@
+2026-03-10 07:02:29,469 | [INFO] | smart_agri_logger | get_all_crops | Line 233 | Fetched 26 crops (skip=0, limit=100)
+2026-03-10 07:02:29,701 | [INFO] | smart_agri_logger | get_all_crops | Line 233 | Fetched 26 crops (skip=0, limit=100)
+2026-03-10 07:02:29,785 | [INFO] | smart_agri_logger | get_all_crops | Line 233 | Fetched 26 crops (skip=0, limit=100)
+2026-03-10 07:03:29,458 | [INFO] | smart_agri_logger | get_all_crops | Line 233 | Fetched 26 crops (skip=0, limit=100)

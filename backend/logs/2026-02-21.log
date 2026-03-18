@@ -1,0 +1,14 @@
+2026-02-21 17:09:59,372 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)
+2026-02-21 17:10:02,497 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)
+2026-02-21 17:10:14,620 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)
+2026-02-22 13:48:13,815 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)
+2026-02-22 13:48:28,844 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 375 | Categories - GRAINS
+2026-02-22 13:49:07,274 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 375 | Categories - GRAINS
+2026-02-22 13:49:13,362 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)
+2026-02-22 14:08:44,526 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)
+2026-02-22 14:09:39,220 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)
+2026-02-22 14:10:21,137 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)
+2026-02-22 16:18:19,541 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)
+2026-02-22 17:15:25,258 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)
+2026-02-22 17:16:54,501 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)
+2026-02-22 17:21:27,001 | [INFO] | smart_agri_logger | get_all_crops | Line 234 | Fetched 26 crops (skip=0, limit=100)

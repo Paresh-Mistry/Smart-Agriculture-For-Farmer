@@ -1,0 +1,15 @@
+.env
+*env 
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*pyd
+.DS_Store
+/app/*.md
+/uploads/
+# Large files
+*.csv
+*.zip
+*.tar
+*.gz

@@ -1,0 +1,147 @@
+2026-01-25 14:33:56,674 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: (psycopg2.errors.InvalidTextRepresentation) invalid input value for enum cropcategory: "vegetables"
+LINE 4: WHERE crop_listings.category = 'vegetables') AS anon_1
+                                       ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT crop_listings.id AS crop_listings_id, crop_listings.crop_name AS crop_listings_crop_name, crop_listings.description AS crop_listings_description, crop_listings.quantity_kg AS crop_listings_quantity_kg, crop_listings.price_per_kg AS crop_listings_price_per_kg, crop_listings.discount_percent AS crop_listings_discount_percent, crop_listings.harvest_date AS crop_listings_harvest_date, crop_listings.expiry_date AS crop_listings_expiry_date, crop_listings.category AS crop_listings_category, crop_listings.status AS crop_listings_status, crop_listings.location AS crop_listings_location, crop_listings.image_url AS crop_listings_image_url, crop_listings.views_count AS crop_listings_views_count, crop_listings.favorites_count AS crop_listings_favorites_count, crop_listings.created_at AS crop_listings_created_at, crop_listings.updated_at AS crop_listings_updated_at 
+FROM crop_listings 
+WHERE crop_listings.category = %(category_1)s) AS anon_1]
+[parameters: {'category_1': 'vegetables'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-01-25 14:34:05,785 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: (psycopg2.errors.InvalidTextRepresentation) invalid input value for enum cropcategory: "spices"
+LINE 4: WHERE crop_listings.category = 'spices') AS anon_1
+                                       ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT crop_listings.id AS crop_listings_id, crop_listings.crop_name AS crop_listings_crop_name, crop_listings.description AS crop_listings_description, crop_listings.quantity_kg AS crop_listings_quantity_kg, crop_listings.price_per_kg AS crop_listings_price_per_kg, crop_listings.discount_percent AS crop_listings_discount_percent, crop_listings.harvest_date AS crop_listings_harvest_date, crop_listings.expiry_date AS crop_listings_expiry_date, crop_listings.category AS crop_listings_category, crop_listings.status AS crop_listings_status, crop_listings.location AS crop_listings_location, crop_listings.image_url AS crop_listings_image_url, crop_listings.views_count AS crop_listings_views_count, crop_listings.favorites_count AS crop_listings_favorites_count, crop_listings.created_at AS crop_listings_created_at, crop_listings.updated_at AS crop_listings_updated_at 
+FROM crop_listings 
+WHERE crop_listings.category = %(category_1)s) AS anon_1]
+[parameters: {'category_1': 'spices'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-01-25 14:34:11,768 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: (psycopg2.errors.InvalidTextRepresentation) invalid input value for enum cropcategory: "Spices"
+LINE 4: WHERE crop_listings.category = 'Spices') AS anon_1
+                                       ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT crop_listings.id AS crop_listings_id, crop_listings.crop_name AS crop_listings_crop_name, crop_listings.description AS crop_listings_description, crop_listings.quantity_kg AS crop_listings_quantity_kg, crop_listings.price_per_kg AS crop_listings_price_per_kg, crop_listings.discount_percent AS crop_listings_discount_percent, crop_listings.harvest_date AS crop_listings_harvest_date, crop_listings.expiry_date AS crop_listings_expiry_date, crop_listings.category AS crop_listings_category, crop_listings.status AS crop_listings_status, crop_listings.location AS crop_listings_location, crop_listings.image_url AS crop_listings_image_url, crop_listings.views_count AS crop_listings_views_count, crop_listings.favorites_count AS crop_listings_favorites_count, crop_listings.created_at AS crop_listings_created_at, crop_listings.updated_at AS crop_listings_updated_at 
+FROM crop_listings 
+WHERE crop_listings.category = %(category_1)s) AS anon_1]
+[parameters: {'category_1': 'Spices'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-01-25 14:34:13,663 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: (psycopg2.errors.InvalidTextRepresentation) invalid input value for enum cropcategory: "Spices"
+LINE 4: WHERE crop_listings.category = 'Spices') AS anon_1
+                                       ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT crop_listings.id AS crop_listings_id, crop_listings.crop_name AS crop_listings_crop_name, crop_listings.description AS crop_listings_description, crop_listings.quantity_kg AS crop_listings_quantity_kg, crop_listings.price_per_kg AS crop_listings_price_per_kg, crop_listings.discount_percent AS crop_listings_discount_percent, crop_listings.harvest_date AS crop_listings_harvest_date, crop_listings.expiry_date AS crop_listings_expiry_date, crop_listings.category AS crop_listings_category, crop_listings.status AS crop_listings_status, crop_listings.location AS crop_listings_location, crop_listings.image_url AS crop_listings_image_url, crop_listings.views_count AS crop_listings_views_count, crop_listings.favorites_count AS crop_listings_favorites_count, crop_listings.created_at AS crop_listings_created_at, crop_listings.updated_at AS crop_listings_updated_at 
+FROM crop_listings 
+WHERE crop_listings.category = %(category_1)s) AS anon_1]
+[parameters: {'category_1': 'Spices'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-01-25 14:34:22,367 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: (psycopg2.errors.InvalidTextRepresentation) invalid input value for enum cropcategory: "Spices"
+LINE 4: WHERE crop_listings.category = 'Spices') AS anon_1
+                                       ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT crop_listings.id AS crop_listings_id, crop_listings.crop_name AS crop_listings_crop_name, crop_listings.description AS crop_listings_description, crop_listings.quantity_kg AS crop_listings_quantity_kg, crop_listings.price_per_kg AS crop_listings_price_per_kg, crop_listings.discount_percent AS crop_listings_discount_percent, crop_listings.harvest_date AS crop_listings_harvest_date, crop_listings.expiry_date AS crop_listings_expiry_date, crop_listings.category AS crop_listings_category, crop_listings.status AS crop_listings_status, crop_listings.location AS crop_listings_location, crop_listings.image_url AS crop_listings_image_url, crop_listings.views_count AS crop_listings_views_count, crop_listings.favorites_count AS crop_listings_favorites_count, crop_listings.created_at AS crop_listings_created_at, crop_listings.updated_at AS crop_listings_updated_at 
+FROM crop_listings 
+WHERE crop_listings.category = %(category_1)s) AS anon_1]
+[parameters: {'category_1': 'Spices'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-01-25 14:34:23,975 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: (psycopg2.errors.InvalidTextRepresentation) invalid input value for enum cropcategory: "Spices"
+LINE 4: WHERE crop_listings.category = 'Spices') AS anon_1
+                                       ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT crop_listings.id AS crop_listings_id, crop_listings.crop_name AS crop_listings_crop_name, crop_listings.description AS crop_listings_description, crop_listings.quantity_kg AS crop_listings_quantity_kg, crop_listings.price_per_kg AS crop_listings_price_per_kg, crop_listings.discount_percent AS crop_listings_discount_percent, crop_listings.harvest_date AS crop_listings_harvest_date, crop_listings.expiry_date AS crop_listings_expiry_date, crop_listings.category AS crop_listings_category, crop_listings.status AS crop_listings_status, crop_listings.location AS crop_listings_location, crop_listings.image_url AS crop_listings_image_url, crop_listings.views_count AS crop_listings_views_count, crop_listings.favorites_count AS crop_listings_favorites_count, crop_listings.created_at AS crop_listings_created_at, crop_listings.updated_at AS crop_listings_updated_at 
+FROM crop_listings 
+WHERE crop_listings.category = %(category_1)s) AS anon_1]
+[parameters: {'category_1': 'Spices'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-01-25 14:34:45,165 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: (psycopg2.errors.InvalidTextRepresentation) invalid input value for enum cropcategory: "Spices?status=active"
+LINE 4: WHERE crop_listings.category = 'Spices?status=active') AS an...
+                                       ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT crop_listings.id AS crop_listings_id, crop_listings.crop_name AS crop_listings_crop_name, crop_listings.description AS crop_listings_description, crop_listings.quantity_kg AS crop_listings_quantity_kg, crop_listings.price_per_kg AS crop_listings_price_per_kg, crop_listings.discount_percent AS crop_listings_discount_percent, crop_listings.harvest_date AS crop_listings_harvest_date, crop_listings.expiry_date AS crop_listings_expiry_date, crop_listings.category AS crop_listings_category, crop_listings.status AS crop_listings_status, crop_listings.location AS crop_listings_location, crop_listings.image_url AS crop_listings_image_url, crop_listings.views_count AS crop_listings_views_count, crop_listings.favorites_count AS crop_listings_favorites_count, crop_listings.created_at AS crop_listings_created_at, crop_listings.updated_at AS crop_listings_updated_at 
+FROM crop_listings 
+WHERE crop_listings.category = %(category_1)s) AS anon_1]
+[parameters: {'category_1': 'Spices?status=active'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-01-25 14:34:50,900 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: (psycopg2.errors.InvalidTextRepresentation) invalid input value for enum cropcategory: "Spices?status=Active"
+LINE 4: WHERE crop_listings.category = 'Spices?status=Active') AS an...
+                                       ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT crop_listings.id AS crop_listings_id, crop_listings.crop_name AS crop_listings_crop_name, crop_listings.description AS crop_listings_description, crop_listings.quantity_kg AS crop_listings_quantity_kg, crop_listings.price_per_kg AS crop_listings_price_per_kg, crop_listings.discount_percent AS crop_listings_discount_percent, crop_listings.harvest_date AS crop_listings_harvest_date, crop_listings.expiry_date AS crop_listings_expiry_date, crop_listings.category AS crop_listings_category, crop_listings.status AS crop_listings_status, crop_listings.location AS crop_listings_location, crop_listings.image_url AS crop_listings_image_url, crop_listings.views_count AS crop_listings_views_count, crop_listings.favorites_count AS crop_listings_favorites_count, crop_listings.created_at AS crop_listings_created_at, crop_listings.updated_at AS crop_listings_updated_at 
+FROM crop_listings 
+WHERE crop_listings.category = %(category_1)s) AS anon_1]
+[parameters: {'category_1': 'Spices?status=Active'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-01-25 14:35:26,150 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:35:26,431 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:35:35,432 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:36:20,248 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:38:21,245 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:38:23,667 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:38:26,033 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:39:17,863 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:41:54,879 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:42:01,194 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:42:08,944 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:42:22,150 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:43:08,325 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:43:28,677 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:44:19,267 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:45:13,763 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:45:20,844 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:45:43,077 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:45:58,386 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:47:03,783 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:48:09,433 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:48:35,404 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:48:39,300 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:48:48,671 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:49:06,354 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:49:12,614 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:49:16,137 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:49:21,297 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:50:21,576 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:50:31,901 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:53:49,827 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:54:47,155 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:55:02,266 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:55:27,794 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:56:34,882 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:57:01,368 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:57:13,548 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 14:57:45,635 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 15:17:10,335 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 15:20:02,011 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 15:53:41,560 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 15:54:10,425 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 15:54:42,332 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 15:55:12,494 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - SPICES
+2026-01-25 15:58:07,430 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 16:08:21,264 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 16:08:30,233 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:40:50,067 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:41:11,282 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:41:36,306 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:41:57,755 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:42:30,544 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:42:42,820 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:42:46,053 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:42:51,486 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:43:10,310 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:43:12,485 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:43:14,993 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:43:19,437 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:43:31,322 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:45:12,320 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:45:13,074 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:45:18,566 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:45:20,528 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:47:04,369 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:48:08,609 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-25 19:48:33,383 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)

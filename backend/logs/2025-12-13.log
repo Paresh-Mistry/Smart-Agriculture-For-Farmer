@@ -1,0 +1,178 @@
+2025-12-13 13:28:38,901 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:29:33,769 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:29:39,921 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:33:25,112 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:34:12,201 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:34:44,245 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:36:52,244 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:36:52,594 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:36:55,310 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:37:09,520 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:37:11,224 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:37:11,385 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:37:11,580 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:37:11,757 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:38:04,636 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: Column expression, FROM clause, or other columns clause element expected, got <class 'app.schemas.cropList.CropListingResponse'>.
+2025-12-13 13:38:04,745 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: Column expression, FROM clause, or other columns clause element expected, got <class 'app.schemas.cropList.CropListingResponse'>.
+2025-12-13 13:38:05,524 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: Column expression, FROM clause, or other columns clause element expected, got <class 'app.schemas.cropList.CropListingResponse'>.
+2025-12-13 13:38:05,720 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: Column expression, FROM clause, or other columns clause element expected, got <class 'app.schemas.cropList.CropListingResponse'>.
+2025-12-13 13:38:05,931 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: Column expression, FROM clause, or other columns clause element expected, got <class 'app.schemas.cropList.CropListingResponse'>.
+2025-12-13 13:38:06,160 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: Column expression, FROM clause, or other columns clause element expected, got <class 'app.schemas.cropList.CropListingResponse'>.
+2025-12-13 13:38:06,625 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: Column expression, FROM clause, or other columns clause element expected, got <class 'app.schemas.cropList.CropListingResponse'>.
+2025-12-13 13:38:08,316 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: Column expression, FROM clause, or other columns clause element expected, got <class 'app.schemas.cropList.CropListingResponse'>.
+2025-12-13 13:39:35,113 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:39:36,039 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:39:36,222 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:39:36,438 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:40:44,375 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:40:45,313 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:40:45,541 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:41:56,805 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:41:56,915 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:42:39,750 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:42:40,955 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:42:41,179 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:42:41,736 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:42:41,932 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:42:42,130 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:42:42,333 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:42:42,537 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:02,897 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:35,886 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:35,949 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:37,588 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:37,798 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:38,003 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:38,206 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:38,392 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:38,559 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:38,737 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:38,941 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:39,468 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:43:40,029 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:45:43,236 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:45:45,063 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:45:45,287 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:46:11,562 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:46:11,612 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:46:11,850 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:48:14,617 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:48:15,568 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:48:15,805 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:48:16,471 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:48:16,662 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:48:16,884 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:48:17,171 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:48:17,348 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:48:17,531 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:48:17,738 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:49:11,127 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:49:11,721 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:49:11,944 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:49:12,461 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:49:12,657 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:49:12,822 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:49:12,998 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:49:13,168 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:49:13,325 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:49:13,545 | [ERROR] | smart_agri_logger | get_all_crops | Line 212 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:52:26,081 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:52:26,907 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:52:27,055 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:52:27,233 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:52:27,455 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:52:58,995 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:52:59,738 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:53:00,237 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:53:00,300 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:53:00,477 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:53:00,655 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:53:00,817 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:53:00,980 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:53:01,196 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:53:12,681 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:53:21,022 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 13:54:11,304 | [ERROR] | smart_agri_logger | get_all_crops | Line 214 | Error fetching crops: 'Available' is not among the defined enum values. Enum name: cropstatus. Possible values: AVAILABLE, SOLD, PENDING, RESERVED
+2025-12-13 14:00:07,940 | [INFO] | smart_agri_logger | get_all_crops | Line 209 | Fetched 0 crops (skip=0, limit=100)
+2025-12-13 14:09:17,085 | [INFO] | smart_agri_logger | get_all_crops | Line 209 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 14:11:12,159 | [INFO] | smart_agri_logger | get_all_crops | Line 209 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 14:11:28,953 | [INFO] | smart_agri_logger | get_all_crops | Line 209 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 14:11:55,895 | [ERROR] | smart_agri_logger | get_crop_by_id | Line 280 | Error fetching crop 2: (psycopg2.errors.CannotCoerce) cannot cast type integer to uuid
+LINE 1: ...s_count=1, updated_at=now() WHERE crop_listings.id = 2::UUID
+                                                                 ^
+
+[SQL: UPDATE crop_listings SET views_count=%(views_count)s, updated_at=now() WHERE crop_listings.id = %(crop_listings_id)s::UUID]
+[parameters: {'views_count': 1, 'crop_listings_id': 2}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-12-13 14:11:55,908 | [ERROR] | smart_agri_logger | get_crop_by_id | Line 280 | Error fetching crop 2: (psycopg2.errors.CannotCoerce) cannot cast type integer to uuid
+LINE 1: ...s_count=1, updated_at=now() WHERE crop_listings.id = 2::UUID
+                                                                 ^
+
+[SQL: UPDATE crop_listings SET views_count=%(views_count)s, updated_at=now() WHERE crop_listings.id = %(crop_listings_id)s::UUID]
+[parameters: {'views_count': 1, 'crop_listings_id': 2}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-12-13 14:12:02,333 | [INFO] | smart_agri_logger | get_all_crops | Line 209 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 14:12:02,358 | [INFO] | smart_agri_logger | get_all_crops | Line 209 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 14:16:34,319 | [INFO] | smart_agri_logger | get_all_crops | Line 209 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 14:18:27,876 | [INFO] | smart_agri_logger | get_all_crops | Line 209 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 14:18:46,474 | [ERROR] | smart_agri_logger | get_crop_by_id | Line 280 | Error fetching crop 2: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE crop_listings.id = 2 
+                               ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT crop_listings.id AS crop_listings_id, crop_listings.crop_name AS crop_listings_crop_name, crop_listings.description AS crop_listings_description, crop_listings.quantity_kg AS crop_listings_quantity_kg, crop_listings.price_per_kg AS crop_listings_price_per_kg, crop_listings.discount_percent AS crop_listings_discount_percent, crop_listings.harvest_date AS crop_listings_harvest_date, crop_listings.expiry_date AS crop_listings_expiry_date, crop_listings.category AS crop_listings_category, crop_listings.status AS crop_listings_status, crop_listings.location AS crop_listings_location, crop_listings.image_url AS crop_listings_image_url, crop_listings.views_count AS crop_listings_views_count, crop_listings.favorites_count AS crop_listings_favorites_count, crop_listings.created_at AS crop_listings_created_at, crop_listings.updated_at AS crop_listings_updated_at 
+FROM crop_listings 
+WHERE crop_listings.id = %(id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': 2, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-12-13 14:18:46,482 | [ERROR] | smart_agri_logger | get_crop_by_id | Line 280 | Error fetching crop 2: (psycopg2.errors.UndefinedFunction) operator does not exist: uuid = integer
+LINE 3: WHERE crop_listings.id = 2 
+                               ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT crop_listings.id AS crop_listings_id, crop_listings.crop_name AS crop_listings_crop_name, crop_listings.description AS crop_listings_description, crop_listings.quantity_kg AS crop_listings_quantity_kg, crop_listings.price_per_kg AS crop_listings_price_per_kg, crop_listings.discount_percent AS crop_listings_discount_percent, crop_listings.harvest_date AS crop_listings_harvest_date, crop_listings.expiry_date AS crop_listings_expiry_date, crop_listings.category AS crop_listings_category, crop_listings.status AS crop_listings_status, crop_listings.location AS crop_listings_location, crop_listings.image_url AS crop_listings_image_url, crop_listings.views_count AS crop_listings_views_count, crop_listings.favorites_count AS crop_listings_favorites_count, crop_listings.created_at AS crop_listings_created_at, crop_listings.updated_at AS crop_listings_updated_at 
+FROM crop_listings 
+WHERE crop_listings.id = %(id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': 2, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-12-13 14:18:47,891 | [INFO] | smart_agri_logger | get_all_crops | Line 209 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 14:18:47,919 | [INFO] | smart_agri_logger | get_all_crops | Line 209 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 15:10:32,906 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 15:10:45,139 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 15:10:56,593 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 15:10:56,603 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 15:12:44,747 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 15:13:53,075 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 15:13:53,086 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 1 crops (skip=0, limit=100)
+2025-12-13 15:17:39,359 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:18:11,999 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:18:12,008 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:18:22,976 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:18:22,984 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:18:40,102 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:18:40,126 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:39:34,795 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:47:08,697 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:47:08,717 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:47:18,734 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:47:18,742 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:48:09,978 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:48:09,997 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:48:23,468 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:55:16,505 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:55:16,531 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:56:08,635 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:56:08,653 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:56:40,593 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:56:40,621 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:57:27,889 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:59:18,973 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:59:19,074 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:59:33,098 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 15:59:33,108 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 16:00:33,656 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 16:01:40,633 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 16:02:11,398 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)
+2025-12-13 16:02:56,039 | [INFO] | smart_agri_logger | get_all_crops | Line 210 | Fetched 4 crops (skip=0, limit=100)

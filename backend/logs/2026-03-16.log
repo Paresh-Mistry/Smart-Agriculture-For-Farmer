@@ -1,0 +1,2 @@
+2026-03-16 06:20:28,923 | [INFO] | smart_agri_logger | get_my_crops | Line 338 | Fetched 23 crops for farmer 7d577d72-4704-48d1-a0f2-763c02f04533 (skip=0, limit=100)
+2026-03-16 06:21:18,144 | [INFO] | smart_agri_logger | get_my_crops | Line 338 | Fetched 23 crops for farmer 7d577d72-4704-48d1-a0f2-763c02f04533 (skip=0, limit=100)

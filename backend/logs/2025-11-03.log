@@ -1,0 +1,189 @@
+2025-11-03 09:32:49,585 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:32:49,586 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:32:49,587 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: name 'image' is not defined
+2025-11-03 09:33:22,068 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:33:22,069 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:33:22,069 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: name 'image' is not defined
+2025-11-03 09:35:30,476 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:35:30,513 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:35:30,514 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: name 'image' is not defined
+2025-11-03 09:35:48,591 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:35:48,592 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:35:48,627 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "be4899219f146326d62e7bad11090691"
+LINE 1: ...t_date, location, image_url, description) VALUES ('be4899219...
+                                                             ^
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': 'be4899219f146326d62e7bad11090691', 'crop_name': 'Peanuts', 'quantity_kg': 50.0, 'price_per_kg': 80.0, 'harvest_date': datetime.date(2025, 11, 27), 'location': 'Chandigarh ', 'image_url': 'null', 'description': 'This is Brown and Green fresh peanuts of Punjab '}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-11-03 09:35:48,668 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "508c58885fc06a68bd7d0a1c7d4776bd"
+LINE 1: ...t_date, location, image_url, description) VALUES ('508c58885...
+                                                             ^
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': '508c58885fc06a68bd7d0a1c7d4776bd', 'crop_name': 'Peanuts', 'quantity_kg': 50.0, 'price_per_kg': 80.0, 'harvest_date': datetime.date(2025, 11, 27), 'location': 'Chandigarh ', 'image_url': 'null', 'description': 'This is Brown and Green fresh peanuts of Punjab '}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-11-03 09:36:52,127 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:36:52,127 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:36:52,128 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:36:52,149 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "d1e6316c37e38b0952030fba1ed23f4e"
+LINE 1: ...t_date, location, image_url, description) VALUES ('d1e6316c3...
+                                                             ^
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': 'd1e6316c37e38b0952030fba1ed23f4e', 'crop_name': 'Peanuts', 'quantity_kg': 50.0, 'price_per_kg': 80.0, 'harvest_date': datetime.date(2025, 11, 27), 'location': 'Chandigarh ', 'image_url': 'null', 'description': 'This is Brown and Green fresh peanuts of Punjab '}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-11-03 09:36:52,158 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "12fd62528dbfa4c9505615f26de8a5f8"
+LINE 1: ...t_date, location, image_url, description) VALUES ('12fd62528...
+                                                             ^
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': '12fd62528dbfa4c9505615f26de8a5f8', 'crop_name': 'Peanuts', 'quantity_kg': 50.0, 'price_per_kg': 80.0, 'harvest_date': datetime.date(2025, 11, 27), 'location': 'Chandigarh ', 'image_url': 'null', 'description': 'This is Brown and Green fresh peanuts of Punjab '}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-11-03 09:36:52,301 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "9eb3354357ea74168a9c38a2e839aee2"
+LINE 1: ...t_date, location, image_url, description) VALUES ('9eb335435...
+                                                             ^
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': '9eb3354357ea74168a9c38a2e839aee2', 'crop_name': 'Peanuts', 'quantity_kg': 50.0, 'price_per_kg': 80.0, 'harvest_date': datetime.date(2025, 11, 27), 'location': 'Chandigarh ', 'image_url': 'null', 'description': 'This is Brown and Green fresh peanuts of Punjab '}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-11-03 09:37:33,380 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:37:33,382 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "1d2d21772777f30efcf21088c43130bf"
+LINE 1: ...t_date, location, image_url, description) VALUES ('1d2d21772...
+                                                             ^
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': '1d2d21772777f30efcf21088c43130bf', 'crop_name': 'Peanuts ', 'quantity_kg': 50.0, 'price_per_kg': 92.0, 'harvest_date': datetime.date(2025, 11, 13), 'location': 'Bangaluru', 'image_url': 'null', 'description': 'this is peanuts'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-11-03 09:38:12,793 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:38:12,800 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (builtins.ValueError) invalid literal for int() with base 10: '2acb7b6f0cc6c0d89d327eaac1c40239'
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: [{'harvest_date': datetime.date(2025, 11, 13), 'description': 'this is peanuts', 'price_per_kg': 92.0, 'image_url': 'null', 'quantity_kg': 50.0, 'location': 'Bangaluru', 'crop_name': 'Peanuts '}]]
+2025-11-03 09:38:39,103 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:39:54,200 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:41:37,554 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: time data '' does not match format '%Y-%m-%d'
+2025-11-03 09:41:49,027 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:41:49,027 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:41:49,028 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: name 'image' is not defined
+2025-11-03 09:43:40,453 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:43:40,454 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:43:40,454 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: name 'image' is not defined
+2025-11-03 09:44:07,803 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:44:07,804 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:44:07,804 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: name 'image' is not defined
+2025-11-03 09:44:24,991 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:44:24,992 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:44:24,992 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: name 'image' is not defined
+2025-11-03 09:44:38,498 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:44:38,498 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:44:38,498 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: name 'image' is not defined
+2025-11-03 09:47:26,759 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:47:26,760 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:47:26,760 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:47:26,760 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:47:26,760 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:47:26,760 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:47:26,761 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: name 'image' is not defined
+2025-11-03 09:47:26,761 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: name 'image' is not defined
+2025-11-03 09:47:26,761 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: name 'image' is not defined
+2025-11-03 09:48:08,175 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:48:08,175 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:48:08,227 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "d8ea24e278ddc3f83e22cf3440292fa6"
+LINE 1: ...t_date, location, image_url, description) VALUES ('d8ea24e27...
+                                                             ^
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': 'd8ea24e278ddc3f83e22cf3440292fa6', 'crop_name': 'Chocolate', 'quantity_kg': 45.0, 'price_per_kg': 12.0, 'harvest_date': datetime.date(2025, 11, 10), 'location': 'rani', 'image_url': 'null', 'description': 'This is Choco'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-11-03 09:52:25,232 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:52:25,232 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:54:10,579 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:54:10,579 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:54:10,611 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.DatatypeMismatch) column "id" is of type integer but expression is of type uuid
+LINE 1: ...t_date, location, image_url, description) VALUES ('da18e1aa-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': UUID('da18e1aa-01b2-422e-be08-eff37c14c3c8'), 'crop_name': 'Potatoes', 'quantity_kg': 200.0, 'price_per_kg': 30.0, 'harvest_date': datetime.date(2025, 11, 14), 'location': 'Konkan ', 'image_url': 'null', 'description': 'this is potatoes of maharashtra'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-03 09:57:00,958 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:57:00,960 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:57:00,961 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:57:00,962 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:57:00,962 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:57:00,962 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:57:00,966 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:57:00,963 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:57:00,963 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:57:00,984 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:57:00,985 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:57:00,985 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:57:00,986 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:57:00,992 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:57:01,004 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.DatatypeMismatch) column "id" is of type integer but expression is of type uuid
+LINE 1: ...t_date, location, image_url, description) VALUES ('7b648bc4-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s::UUID, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': UUID('7b648bc4-10f4-4053-8ece-349d83f68de2'), 'crop_name': 'Potatoes', 'quantity_kg': 200.0, 'price_per_kg': 30.0, 'harvest_date': datetime.date(2025, 11, 14), 'location': 'Konkan ', 'image_url': 'null', 'description': 'this is potatoes of maharashtra'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-03 09:57:01,004 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.DatatypeMismatch) column "id" is of type integer but expression is of type uuid
+LINE 1: ...t_date, location, image_url, description) VALUES ('d02bbf4f-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s::UUID, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': UUID('d02bbf4f-9a33-49f2-97c6-78ad9f7a3ad6'), 'crop_name': 'Potatoes', 'quantity_kg': 200.0, 'price_per_kg': 30.0, 'harvest_date': datetime.date(2025, 11, 14), 'location': 'Konkan ', 'image_url': 'null', 'description': 'this is potatoes of maharashtra'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-03 09:57:01,024 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.DatatypeMismatch) column "id" is of type integer but expression is of type uuid
+LINE 1: ...t_date, location, image_url, description) VALUES ('7acb6b40-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s::UUID, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': UUID('7acb6b40-b9c0-499a-950b-1fd133aad127'), 'crop_name': 'Potatoes', 'quantity_kg': 200.0, 'price_per_kg': 30.0, 'harvest_date': datetime.date(2025, 11, 14), 'location': 'Konkan ', 'image_url': 'null', 'description': 'this is potatoes of maharashtra'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-03 09:57:01,082 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.DatatypeMismatch) column "id" is of type integer but expression is of type uuid
+LINE 1: ...t_date, location, image_url, description) VALUES ('7f116f2a-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s::UUID, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': UUID('7f116f2a-e30e-4212-902b-590fe639da14'), 'crop_name': 'Potatoes', 'quantity_kg': 200.0, 'price_per_kg': 30.0, 'harvest_date': datetime.date(2025, 11, 14), 'location': 'Konkan ', 'image_url': 'null', 'description': 'this is potatoes of maharashtra'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-03 09:57:01,094 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.DatatypeMismatch) column "id" is of type integer but expression is of type uuid
+LINE 1: ...t_date, location, image_url, description) VALUES ('1e7424a4-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s::UUID, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': UUID('1e7424a4-404c-4dea-89f1-b638902974ef'), 'crop_name': 'Potatoes', 'quantity_kg': 200.0, 'price_per_kg': 30.0, 'harvest_date': datetime.date(2025, 11, 14), 'location': 'Konkan ', 'image_url': 'null', 'description': 'this is potatoes of maharashtra'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-03 09:57:01,218 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.DatatypeMismatch) column "id" is of type integer but expression is of type uuid
+LINE 1: ...t_date, location, image_url, description) VALUES ('5ef401c8-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s::UUID, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': UUID('5ef401c8-a793-49b0-a9c7-ff7dfb92f4b6'), 'crop_name': 'Potatoes', 'quantity_kg': 200.0, 'price_per_kg': 30.0, 'harvest_date': datetime.date(2025, 11, 14), 'location': 'Konkan ', 'image_url': 'null', 'description': 'this is potatoes of maharashtra'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-03 09:57:01,240 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.DatatypeMismatch) column "id" is of type integer but expression is of type uuid
+LINE 1: ...t_date, location, image_url, description) VALUES ('58085d64-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s::UUID, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': UUID('58085d64-64fa-40b4-be26-f558800a8d91'), 'crop_name': 'Potatoes', 'quantity_kg': 200.0, 'price_per_kg': 30.0, 'harvest_date': datetime.date(2025, 11, 14), 'location': 'Konkan ', 'image_url': 'null', 'description': 'this is potatoes of maharashtra'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-03 09:58:07,589 | [INFO] | smart_agri_logger | cropslist | Line 27 | Received new crop listing request.
+2025-11-03 09:58:07,589 | [INFO] | smart_agri_logger | cropslist | Line 29 | Uploading image to Cloudinary...
+2025-11-03 09:58:07,593 | [ERROR] | smart_agri_logger | cropslist | Line 51 | Error inserting crop: (psycopg2.errors.DatatypeMismatch) column "id" is of type integer but expression is of type uuid
+LINE 1: ...t_date, location, image_url, description) VALUES ('e74ba625-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[SQL: INSERT INTO crops_listings (id, crop_name, quantity_kg, price_per_kg, harvest_date, location, image_url, description) VALUES (%(id)s::UUID, %(crop_name)s, %(quantity_kg)s, %(price_per_kg)s, %(harvest_date)s, %(location)s, %(image_url)s, %(description)s) RETURNING crops_listings.created_at]
+[parameters: {'id': UUID('e74ba625-6197-4a08-9b51-dc19840cbec3'), 'crop_name': 'Potatoes', 'quantity_kg': 200.0, 'price_per_kg': 30.0, 'harvest_date': datetime.date(2025, 11, 28), 'location': 'Konkan', 'image_url': 'null', 'description': 'this is potatoes'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)

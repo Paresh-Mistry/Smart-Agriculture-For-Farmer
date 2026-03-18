@@ -1,0 +1,66 @@
+2026-01-26 08:20:42,398 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 08:21:19,923 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 08:21:41,493 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - FRUITS
+2026-01-26 08:21:52,384 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - FRUITS
+2026-01-26 08:52:31,408 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 08:52:35,563 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 08:53:34,102 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - VEGETABLES
+2026-01-26 08:53:36,194 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - VEGETABLES
+2026-01-26 08:53:36,531 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - VEGETABLES
+2026-01-26 08:53:48,539 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - VEGETABLES
+2026-01-26 08:53:51,629 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - VEGETABLES
+2026-01-26 08:53:53,548 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - VEGETABLES
+2026-01-26 08:53:55,113 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - VEGETABLES
+2026-01-26 08:54:25,587 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - VEGETABLES
+2026-01-26 08:59:24,559 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - VEGETABLES
+2026-01-26 09:00:35,423 | [DEBUG] | smart_agri_logger | get_crops_by_category | Line 244 | Categories - VEGETABLES
+2026-01-26 09:03:39,675 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 09:03:43,701 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 09:04:11,056 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 09:04:25,599 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 09:08:59,132 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 09:21:06,230 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 09:21:17,269 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 09:21:20,043 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 11:42:02,961 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 11:42:08,921 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 11:42:11,818 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:00:44,315 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:07:35,035 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:09:27,764 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:14:08,403 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:15:15,156 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:15:30,341 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:15:31,933 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:15:35,568 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:15:49,635 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:17:32,556 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:17:38,162 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:18:47,718 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:19:02,281 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:19:31,097 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:22:58,187 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:23:21,415 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:24:44,924 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:26:00,220 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 12:46:19,298 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: Could not determine join condition between parent/child tables on relationship CropListing.seller - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-01-26 12:46:22,590 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[CropListing(crop_listings)]'. Original exception was: Could not determine join condition between parent/child tables on relationship CropListing.seller - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-01-26 12:46:24,245 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[CropListing(crop_listings)]'. Original exception was: Could not determine join condition between parent/child tables on relationship CropListing.seller - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-01-26 12:46:24,791 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[CropListing(crop_listings)]'. Original exception was: Could not determine join condition between parent/child tables on relationship CropListing.seller - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-01-26 12:46:24,986 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[CropListing(crop_listings)]'. Original exception was: Could not determine join condition between parent/child tables on relationship CropListing.seller - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-01-26 12:46:25,192 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[CropListing(crop_listings)]'. Original exception was: Could not determine join condition between parent/child tables on relationship CropListing.seller - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-01-26 12:46:25,380 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[CropListing(crop_listings)]'. Original exception was: Could not determine join condition between parent/child tables on relationship CropListing.seller - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-01-26 12:46:25,602 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[CropListing(crop_listings)]'. Original exception was: Could not determine join condition between parent/child tables on relationship CropListing.seller - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-01-26 12:47:55,423 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: Mapper 'Mapper[User(users)]' has no property 'crops'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2026-01-26 12:48:06,820 | [ERROR] | smart_agri_logger | get_crop_by_id | Line 287 | Error fetching crop ec58c194-aa9f-4c0d-aa00-3f6bde56484d: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[CropListing(crop_listings)]'. Original exception was: Mapper 'Mapper[User(users)]' has no property 'crops'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2026-01-26 12:48:07,863 | [ERROR] | smart_agri_logger | get_crop_by_id | Line 287 | Error fetching crop ec58c194-aa9f-4c0d-aa00-3f6bde56484d: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[CropListing(crop_listings)]'. Original exception was: Mapper 'Mapper[User(users)]' has no property 'crops'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2026-01-26 12:48:09,878 | [ERROR] | smart_agri_logger | get_crop_by_id | Line 287 | Error fetching crop ec58c194-aa9f-4c0d-aa00-3f6bde56484d: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[CropListing(crop_listings)]'. Original exception was: Mapper 'Mapper[User(users)]' has no property 'crops'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2026-01-26 12:48:51,481 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: Mapper 'Mapper[User(users)]' has no property 'crops'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2026-01-26 12:48:53,099 | [ERROR] | smart_agri_logger | get_crops_count | Line 438 | Error fetching crop count: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[CropListing(crop_listings)]'. Original exception was: Mapper 'Mapper[User(users)]' has no property 'crops'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2026-01-26 13:06:51,677 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 13:06:51,993 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 13:07:13,101 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 13:09:54,563 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 13:14:45,378 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 13:29:31,972 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
+2026-01-26 13:29:53,103 | [INFO] | smart_agri_logger | get_all_crops | Line 211 | Fetched 24 crops (skip=0, limit=100)
