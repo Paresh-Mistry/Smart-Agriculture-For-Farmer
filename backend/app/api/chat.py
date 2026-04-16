@@ -18,8 +18,7 @@ router = APIRouter()
 session_memories = {}
 
 # ✅ Load API key from .env
-GEMINI_API_KEY = "AIzaSyAqFUWpC2-rjsojuGTVIq1Kawug6ANX9n0"
-
+GEMINI_API_KEY = os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
 
 if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY not found in environment variables")
