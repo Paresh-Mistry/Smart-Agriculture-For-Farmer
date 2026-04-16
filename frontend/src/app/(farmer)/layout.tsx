@@ -122,7 +122,8 @@ export default function Sidebarlayout({
                                 <SidebarLink icon={<Plus />} label="Add Crops" isOpen={isOpen} href={'/buyer/addcrops'} />
                                 <SidebarLink icon={<MessageCircle />} label="Notifications" isOpen={isOpen} href={'/farmer/message'} />
                                 <SidebarLink icon={<TrendingUp />} label="Market Trend" isOpen={isOpen} href={'/farmer/mandi'} />
-                                <SidebarLink icon={<Sprout />} label="Pesticides" isOpen={isOpen} href={'/farmer/fertilizers'} />
+                                <SidebarLink icon={<Sprout />} label="Pesticides" isOpen={isOpen} href={'/farmer/fertilizer'} />
+                                <SidebarLink icon={<Sprout />} label="Weed Detection" isOpen={isOpen} href={'/farmer/weed-detection'} />
                             </nav>
                         </div>
                         {isOpen && <div className="px-4 bg-white fixed bottom-0 py-3 w-64 border-t border-gray-200 space-y-4">

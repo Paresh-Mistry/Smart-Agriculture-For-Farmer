@@ -64,5 +64,3 @@ export const useCropsByCategory = (
     enabled: enabled && !!category,
   });
 };
-
-

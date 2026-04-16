@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
 # from . import cropLists, users
-from . import cropLists, users, chat, weather, analytic, orders, request, mandi
+from . import cropLists, users, chat, weather, analytic, orders, request, mandi, recommendation, weed
 
 from ..config.database import Base, engine
 
@@ -19,3 +19,5 @@ router.include_router(orders.router , tags=["Order"])
 router.include_router(request.router , tags=["Request"])
 router.include_router(analytic.router , tags=["Analytic"])
 router.include_router(mandi.router , tags=["Mandi"])
+router.include_router(recommendation.router , tags=["Recommendation"])
+router.include_router(weed.router , tags=["Weed"])

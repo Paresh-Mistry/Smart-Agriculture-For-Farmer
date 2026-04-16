@@ -18,7 +18,7 @@ router = APIRouter()
 session_memories = {}
 
 # ✅ Load API key from .env
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = "AIzaSyAqFUWpC2-rjsojuGTVIq1Kawug6ANX9n0"
 
 
 if not GEMINI_API_KEY:

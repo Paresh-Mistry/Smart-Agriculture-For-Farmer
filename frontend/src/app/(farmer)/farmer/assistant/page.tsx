@@ -3,8 +3,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import {
-  Bot, Mic, Send, Loader2, Trash2, Speaker,
-  Sprout, ChevronDown, Globe,
+  Bot, Mic, Send, Loader2, Speaker,
 } from 'lucide-react';
 import { Button } from '@component/components/ui/button';
 import { cn } from '@component/lib/utils';
@@ -19,23 +18,146 @@ interface Message {
   content: string;
 }
 
+interface QuickQuestion {
+  icon: string;
+  text: string;
+}
+
+interface Category {
+  id: string;
+  label: string;
+  icon: string;
+  questions: QuickQuestion[];
+}
+
 /* ─── Constants ─────────────────────────────────────────────────────────── */
 const API_URL = 'http://localhost:8000';
 
 const LANGUAGE_OPTIONS = [
-  { code: 'en-IN', label: 'English',    flag: '🇮🇳' },
-  { code: 'hi-IN', label: 'हिन्दी',      flag: '🇮🇳' },
-  { code: 'mr-IN', label: 'मराठी',       flag: '🇮🇳' },
-  { code: 'gu-IN', label: 'ગુજરાતી',    flag: '🇮🇳' },
+  { code: 'en-IN', label: 'English', flag: '🇮🇳' },
+  { code: 'hi-IN', label: 'हिन्दी', flag: '🇮🇳' },
+  { code: 'mr-IN', label: 'मराठी', flag: '🇮🇳' },
+  { code: 'gu-IN', label: 'ગુજરાતી', flag: '🇮🇳' },
 ];
 
-const QUICK_QUESTIONS = [
-  { icon: '🌾', text: 'Which crop is best to grow this season?' },
-  { icon: '💰', text: "What is today's market price for my crops?" },
-  { icon: '🚚', text: 'How can I sell my crops directly to buyers?' },
-  { icon: '🌧️', text: 'What weather conditions affect wheat growth?' },
-  { icon: '🐛', text: 'How do I protect crops from pests organically?' },
-  { icon: '💧', text: 'Best irrigation methods for dry regions?' },
+const CATEGORIES: Category[] = [
+  {
+    id: 'all',
+    label: 'All Topics',
+    icon: '🌿',
+    questions: [
+      { icon: '🌾', text: 'Which crop is best to grow this season?' },
+      { icon: '💰', text: "What is today's mandi price for wheat?" },
+      { icon: '🚚', text: 'How can I sell my crops directly to buyers?' },
+      { icon: '🌧️', text: 'What weather conditions affect wheat growth?' },
+      { icon: '🐛', text: 'How do I protect crops from pests organically?' },
+      { icon: '💧', text: 'Best irrigation methods for dry regions?' },
+    ],
+  },
+  {
+    id: 'crop',
+    label: 'Crops',
+    icon: '🌾',
+    questions: [
+      { icon: '🌾', text: 'Which crop is best to grow this season?' },
+      { icon: '🌽', text: 'What is the ideal spacing for maize planting?' },
+      { icon: '🍅', text: 'How to increase tomato yield per acre?' },
+      { icon: '🌱', text: 'Best time to sow rabi crops in north India?' },
+      { icon: '🌿', text: 'How to improve crop rotation planning?' },
+      { icon: '🌻', text: 'Which variety of wheat gives the highest yield?' },
+    ],
+  },
+  {
+    id: 'vegetable',
+    label: 'Vegetables',
+    icon: '🥦',
+    questions: [
+      { icon: '🥦', text: 'How to grow broccoli in warm climates?' },
+      { icon: '🧅', text: 'Best fertilizer schedule for onion crops?' },
+      { icon: '🥕', text: 'When to harvest carrots for best quality?' },
+      { icon: '🍆', text: 'How to control pests on brinjal plants?' },
+      { icon: '🌶️', text: 'What soil pH is ideal for chili peppers?' },
+      { icon: '🫑', text: 'How to increase capsicum production?' },
+    ],
+  },
+  {
+    id: 'pesticide',
+    label: 'Pesticides',
+    icon: '🧪',
+    questions: [
+      { icon: '🐛', text: 'How do I protect crops from pests organically?' },
+      { icon: '🧪', text: 'What is the safe dosage of chlorpyrifos for wheat?' },
+      { icon: '🦟', text: 'How to control aphids on mustard without chemicals?' },
+      { icon: '🐜', text: 'Which pesticide works best for termite control?' },
+      { icon: '🌿', text: 'How to make neem-based organic pesticide at home?' },
+      { icon: '⚠️', text: 'What are the withdrawal periods for common pesticides?' },
+    ],
+  },
+  {
+    id: 'soil',
+    label: 'Soil & Water',
+    icon: '💧',
+    questions: [
+      { icon: '💧', text: 'Best irrigation methods for dry regions?' },
+      { icon: '🪱', text: 'How to improve soil fertility naturally?' },
+      { icon: '🧂', text: 'How to treat saline or alkaline soil?' },
+      { icon: '💦', text: 'What is drip irrigation and when to use it?' },
+      { icon: '🌱', text: 'How to test soil pH at home?' },
+      { icon: '🪣', text: 'How much water does sugarcane need per week?' },
+    ],
+  },
+  {
+    id: 'market',
+    label: 'Market',
+    icon: '💰',
+    questions: [
+      { icon: '💰', text: "What is today's mandi price for wheat?" },
+      { icon: '🚚', text: 'How can I sell crops directly to buyers?' },
+      { icon: '📦', text: 'Where do I register for e-NAM marketplace?' },
+      { icon: '📈', text: 'Which crops have the highest export demand?' },
+      { icon: '🏦', text: 'How to get a Kisan Credit Card loan?' },
+      { icon: '🤝', text: 'How do contract farming agreements work?' },
+    ],
+  },
+  {
+    id: 'weather',
+    label: 'Weather',
+    icon: '🌧️',
+    questions: [
+      { icon: '🌧️', text: 'What weather conditions affect wheat growth?' },
+      { icon: '🌡️', text: 'How to protect crops from unseasonal frost?' },
+      { icon: '☀️', text: 'How does heatwave affect kharif crops?' },
+      { icon: '🌪️', text: 'What to do before a cyclone hits farmland?' },
+      { icon: '⛈️', text: 'How to manage waterlogging after heavy rains?' },
+      { icon: '🌤️', text: 'How to use weather forecasts for sowing decisions?' },
+    ],
+  },
+  {
+    id: 'fertilizer',
+    label: 'Fertilizers',
+    icon: '🌿',
+    questions: [
+      { icon: '🌿', text: 'What NPK ratio is best for paddy?' },
+      { icon: '🧴', text: 'How to use urea efficiently without wastage?' },
+      { icon: '🪴', text: 'What is the difference between DAP and SSP?' },
+      { icon: '♻️', text: 'How to make compost from farm waste?' },
+      { icon: '🌾', text: 'When should I apply potash to my crops?' },
+      { icon: '🔬', text: 'How to identify nutrient deficiency in crops?' },
+    ],
+  },
+  {
+    id: 'scheme',
+    label: 'Govt Schemes',
+    icon: '📋',
+    questions: [
+      { icon: '📋', text: 'How to apply for PM-KISAN scheme?' },
+      { icon: '🛡️', text: 'How does Pradhan Mantri Fasal Bima Yojana work?' },
+      { icon: '💸', text: 'What subsidies are available for drip irrigation?' },
+      { icon: '🌾', text: 'How to register for MSP for my crop?' },
+      { icon: '🏠', text: 'What is the Kisan Vikas Patra scheme?' },
+      { icon: '📱', text: 'How to use the PM Kisan mobile app?' },
+    ],
+  },
 ];
 
 /* ─── Markdown components ────────────────────────────────────────────────── */
@@ -70,21 +192,22 @@ const MD_COMPONENTS: React.ComponentProps<typeof ReactMarkdown>['components'] = 
 
 /* ─── Page ───────────────────────────────────────────────────────────────── */
 export default function AIAssistantPage() {
-  const [query, setQuery]           = useState('');
-  const [messages, setMessages]     = useState<Message[]>([]);
-  const [sessionId, setSessionId]   = useState<string | null>(null);
+  const [query, setQuery]             = useState('');
+  const [messages, setMessages]       = useState<Message[]>([]);
+  const [sessionId, setSessionId]     = useState<string | null>(null);
   const [isListening, setIsListening] = useState(false);
-  const [isTyping, setIsTyping]     = useState(false);
-  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [isTyping, setIsTyping]       = useState(false);
+  const [isSpeaking, setIsSpeaking]   = useState(false);
   const [currentSpeakingIndex, setCurrentSpeakingIndex] = useState<number | null>(null);
   const [currentLanguage, setCurrentLanguage] = useState('hi-IN');
-  const [langMenuOpen, setLangMenuOpen] = useState(false);
+  const [activeCategory, setActiveCategory]   = useState('all');
 
-  const recognitionRef  = useRef<any>(null);
-  const messagesEndRef  = useRef<HTMLDivElement>(null);
-  const textareaRef     = useRef<HTMLTextAreaElement>(null);
+  const recognitionRef = useRef<any>(null);
+  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const textareaRef    = useRef<HTMLTextAreaElement>(null);
+  const catScrollRef   = useRef<HTMLDivElement>(null);
 
-  /* ── Scroll to bottom ──────────────────────────────────────────────────── */
+  /* ── Scroll messages to bottom ─────────────────────────────────────────── */
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, isTyping]);
@@ -191,7 +314,9 @@ export default function AIAssistantPage() {
     }
   };
 
-  const selectedLang = LANGUAGE_OPTIONS.find(l => l.code === currentLanguage) ?? LANGUAGE_OPTIONS[0];
+  const selectedLang     = LANGUAGE_OPTIONS.find(l => l.code === currentLanguage) ?? LANGUAGE_OPTIONS[0];
+  const activeCategoryData = CATEGORIES.find(c => c.id === activeCategory) ?? CATEGORIES[0];
+  const visibleQuestions   = activeCategoryData.questions;
 
   /* ─── Render ──────────────────────────────────────────────────────────── */
   return (
@@ -236,6 +361,13 @@ export default function AIAssistantPage() {
         }
         .msg-in { animation: msgIn 0.28s ease-out both; }
 
+        /* Category question card fade-in */
+        @keyframes cardIn {
+          from { opacity: 0; transform: translateY(6px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+        .card-in { animation: cardIn 0.22s ease-out both; }
+
         /* Textarea */
         .chat-textarea {
           resize: none;
@@ -252,9 +384,53 @@ export default function AIAssistantPage() {
         .msg-scroll::-webkit-scrollbar-track { background: transparent; }
         .msg-scroll::-webkit-scrollbar-thumb { background: #bbf7d0; border-radius: 4px; }
 
+        /* Horizontal category scroll */
+        .cat-scroll { 
+          display: flex; 
+          gap: 8px; 
+          overflow-x: auto; 
+          padding-bottom: 4px;
+          scrollbar-width: none;
+        }
+        .cat-scroll::-webkit-scrollbar { display: none; }
+
         /* Quick question hover */
         .quick-q { transition: all 0.18s ease; }
         .quick-q:hover { transform: translateY(-2px); box-shadow: 0 4px 14px rgba(22,163,74,0.18); }
+
+        /* Category pill */
+        .cat-pill {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          padding: 6px 14px;
+          border-radius: 999px;
+          border: 1.5px solid #e5e7eb;
+          background: white;
+          color: #6b7280;
+          font-size: 12.5px;
+          font-weight: 500;
+          white-space: nowrap;
+          cursor: pointer;
+          flex-shrink: 0;
+          transition: all 0.18s ease;
+          font-family: 'DM Sans', sans-serif;
+        }
+        .cat-pill:hover {
+          border-color: #16a34a;
+          color: #15803d;
+          background: #f0fdf4;
+        }
+        .cat-pill.active {
+          background: #15803d;
+          border-color: #15803d;
+          color: white;
+          box-shadow: 0 2px 8px rgba(21,128,61,0.3);
+        }
+        .cat-pill .cat-emoji {
+          font-size: 14px;
+          line-height: 1;
+        }
 
         /* Pulse ring for listening */
         @keyframes pulseRing {
@@ -263,20 +439,31 @@ export default function AIAssistantPage() {
           100% { box-shadow: 0 0 0 0 rgba(239,68,68,0); }
         }
         .pulse-ring { animation: pulseRing 1.2s ease-out infinite; }
+
+        /* Section label */
+        .section-label {
+          font-size: 11px;
+          font-weight: 600;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+          color: #9ca3af;
+          margin-bottom: 10px;
+        }
       `}</style>
 
       <AutoTranslate>
         <div className="agri-page animated-bg dot-grid min-h-screen flex flex-col">
 
           {/* ═══ MAIN CHAT AREA ══════════════════════════════════════════════ */}
-          <main className="flex-1 overflow-hidden flex flex-col mx-auto w-full max-w-3xl px-4 py-4 gap-4">
+          <main className="flex-1 overflow-hidden relative flex flex-col mx-auto w-full max-w-3xl py-4 gap-4">
 
             {/* Messages scroll area */}
-            <div className="msg-scroll flex-1 overflow-y-auto space-y-4 pr-1">
+            <div className="msg-scroll flex-1 overflow-y-auto space-y-4">
 
               {/* ── Empty state ── */}
               {messages.length === 0 && (
                 <div className="flex flex-col items-center pt-8 pb-4 text-center">
+
                   {/* Avatar */}
                   <div className="relative mb-5">
                     <div className="h-20 w-20 rounded-2xl bg-gradient-to-br from-green-700 via-green-600 to-emerald-500 flex items-center justify-center shadow-xl shadow-green-300/40">
@@ -290,17 +477,41 @@ export default function AIAssistantPage() {
                   <h1 className="agri-title text-2xl font-bold text-green-900 mb-1">
                     AgriBot Assistant
                   </h1>
-                  <p className="text-sm text-gray-500 max-w-xs mb-8">
+                  <p className="text-sm text-gray-500 max-w-xs mb-6">
                     Your AI-powered farming guide. Ask anything about crops, soil, weather, markets, or pests.
                   </p>
 
-                  {/* Quick questions grid */}
+                  {/* ── Category pill tabs ── */}
+                  <div className="w-full mb-4">
+                    <div className="cat-scroll" ref={catScrollRef}>
+                      {CATEGORIES.map(cat => (
+                        <button
+                          key={cat.id}
+                          className={`cat-pill${activeCategory === cat.id ? ' active' : ''}`}
+                          onClick={() => setActiveCategory(cat.id)}
+                        >
+                          <span className="cat-emoji">{cat.icon}</span>
+                          {cat.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* ── Section label ── */}
+                  <div className="w-full text-left">
+                    <p className="section-label">
+                      {activeCategory === 'all' ? 'Popular questions' : `${activeCategoryData.label} questions`}
+                    </p>
+                  </div>
+
+                  {/* ── Filtered questions grid ── */}
                   <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                    {QUICK_QUESTIONS.map((q, i) => (
+                    {visibleQuestions.map((q, i) => (
                       <button
-                        key={i}
+                        key={`${activeCategory}-${i}`}
                         onClick={() => setQuery(q.text)}
-                        className="quick-q flex items-center gap-3 rounded-2xl border border-green-100 bg-white px-4 py-3 text-left shadow-sm hover:border-green-300 hover:bg-green-50"
+                        className="card-in quick-q flex items-center gap-3 rounded-2xl border border-green-100 bg-white px-2.5 py-2 text-left shadow-sm hover:border-green-300 hover:bg-green-50"
+                        style={{ animationDelay: `${i * 0.04}s` }}
                       >
                         <span className="text-xl flex-shrink-0">{q.icon}</span>
                         <span className="text-xs font-medium text-gray-700 leading-snug">{q.text}</span>
@@ -315,7 +526,7 @@ export default function AIAssistantPage() {
                 <div
                   key={idx}
                   className={cn(
-                    'msg-in flex gap-3',
+                    'msg-in flex gap-3 overflow-y-auto',
                     msg.role === 'user' ? 'flex-row-reverse' : 'flex-row',
                   )}
                 >
@@ -388,7 +599,7 @@ export default function AIAssistantPage() {
                         <div
                           key={i}
                           className="dot-bounce h-2 w-2 rounded-full bg-green-400"
-                          style={{ animationDelay: `${i *   0.15}s` }}
+                          style={{ animationDelay: `${i * 0.15}s` }}
                         />
                       ))}
                     </div>
@@ -400,7 +611,7 @@ export default function AIAssistantPage() {
             </div>
 
             {/* ═══ INPUT BAR ═══════════════════════════════════════════════ */}
-            <div className="rounded-2xl border fixed bottom-0 mb-3 max-w-3xl w-full border-green-200 bg-white shadow-lg shadow-green-100/50 p-3">
+            <div className="rounded-2xl border fixed bottom-0 mb-3 max-w-3xl w-full border-green-200 bg-[#f2fff2] shadow-lg shadow-green-100/50 p-3">
 
               {/* Listening indicator */}
               {isListening && (
@@ -421,9 +632,9 @@ export default function AIAssistantPage() {
                   placeholder="Ask about crops, soil, market prices…"
                   rows={1}
                   className={cn(
-                    'chat-textarea flex-1 rounded-xl border border-green-100 bg-green-50/50',
+                    'chat-textarea flex-1 rounded-xl bg-green-50/50',
                     'px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400',
-                    'focus:outline-none focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-100',
+                    'focus:outline-none',
                     'transition-all duration-200',
                   )}
                 />

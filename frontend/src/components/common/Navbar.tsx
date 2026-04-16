@@ -73,7 +73,14 @@ export default function Navbar() {
                             <div className="hidden md:flex gap-5">
                                 <Link href="/" className="text-base hover:text-blue-500 transition">Home</Link>
                                 <Link href="/buyer/materials" className="text-base hover:text-blue-500 transition">Browse</Link>
-                                <Link href="/about" className="text-base hover:text-blue-500 transition">About us</Link>
+                                {user && (
+                                    <>
+                                    <Link href="/farmer/dashboard" className="text-base hover:text-blue-500 transition">Dashboard</Link>
+                                    <Link href="/farmer/mandi" className="text-base hover:text-blue-500 transition">Market Trend</Link>
+                                    </>
+                                )}
+                                <Link href="/farmer/fertilizer" className="text-base hover:text-blue-500 transition">Recommendations</Link>
+                                <Link href="/farmer/assistant" className="text-base italic font-bold  hover:text-blue-500 transition">Ask AI</Link>
                             </div>
                         </div>
 

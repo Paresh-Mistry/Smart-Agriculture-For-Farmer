@@ -615,4 +615,7 @@ def recommend_fertilizer_existing(data: ExistingCropInput):
         "input_conditions": data.dict(),
     }
 
+ 
+    
+
 

@@ -1,6 +1,7 @@
 # schemas/cropList.py - SIMPLIFIED VERSION
-from pydantic import BaseModel, ConfigDict
-from typing import Optional
+from pydantic import BaseModel, ConfigDict, Field
+from enum import Enum
+from typing import Optional, List, Literal 
 from datetime import date, datetime
 from enum import Enum
 from uuid import UUID as PyUUID
@@ -14,16 +15,6 @@ class Category(str, Enum):
     SPICES = "Spices"
     OILSEEDS = "Oilseeds"
     OTHER = "Other"
-
-# class Category(str, Enum):
-#     GRAINS = "GRAINS"
-#     FRUITS = "FRUITS"
-#     VEGETABLES = "VEGETABLES"
-#     LEGUMES = "LEGUMES"
-#     SPICES = "SPICES"
-#     OILSEEDS = "OILSEEDS"
-#     OTHER = "OTHER"
-
 
 class Status(str, Enum):
     AVAILABLE = "AVAILABLE"
@@ -54,7 +45,6 @@ class CropListingResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
 
-
 class SoilWeatherInput(BaseModel):
     Nitrogen: float
     Phosphorus: float
@@ -74,3 +64,4 @@ class ExistingCropInput(BaseModel):
     Humidity: float
     pH_Value: float
     Rainfall: float
+   

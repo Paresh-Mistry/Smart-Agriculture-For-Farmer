@@ -38,7 +38,8 @@ dependencies = [
     "google-genai (>=1.65.0,<2.0.0)",
     "geoip2 (>=5.2.0,<6.0.0)",
     "redis (>=7.3.0,<8.0.0)",
-    "fastapi-cache2 (>=0.2.2,<0.3.0)"
+    "fastapi-cache2 (>=0.2.2,<0.3.0)",
+    "opencv-python (>=4.13.0.92,<5.0.0.0)"
 ]
 
 [dependency-groups]

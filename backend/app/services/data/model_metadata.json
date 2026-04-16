@@ -1,0 +1,70 @@
+{
+  "model": "RandomForestClassifier (500 trees)",
+  "n_classes": 18,
+  "classes": [
+    "Apple",
+    "Banana",
+    "Beans",
+    "Black Gram",
+    "Cabbage",
+    "Carrot",
+    "Chickpea",
+    "Grapes",
+    "Guava",
+    "Lentil",
+    "Mango",
+    "Moong",
+    "Onion",
+    "Orange",
+    "Potato",
+    "Red Gram",
+    "Spinach",
+    "Tomato"
+  ],
+  "features_num": [
+    "nitrogen",
+    "phosphorus",
+    "potassium",
+    "temperature",
+    "humidity",
+    "rainfall",
+    "soil_pH",
+    "moisture",
+    "field_size_acres"
+  ],
+  "features_cat": [
+    "soil_type",
+    "crop_category"
+  ],
+  "soil_types": [
+    "Alluvial",
+    "Black",
+    "Clay",
+    "Loamy",
+    "Red",
+    "Sandy"
+  ],
+  "crop_categories": [
+    "Fruits",
+    "Pulses",
+    "Vegetables"
+  ],
+  "test_accuracy": 0.9675,
+  "cv_mean": 0.969357,
+  "cv_std": 0.00287,
+  "feature_importance": {
+    "phosphorus": 0.168481,
+    "rainfall": 0.148743,
+    "humidity": 0.144943,
+    "nitrogen": 0.138293,
+    "potassium": 0.127394,
+    "crop_category_enc": 0.11388,
+    "temperature": 0.059854,
+    "soil_pH": 0.04399,
+    "moisture": 0.042038,
+    "field_size_acres": 0.007598,
+    "soil_type_enc": 0.004786
+  },
+  "train_rows": 11200,
+  "test_rows": 2800
+}

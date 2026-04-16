@@ -19,6 +19,7 @@ class Settings(BaseSettings):
     OLLAMA_API_URL: str = os.getenv("OLLAMA_API_URL")
     DEFAULT_MODEL: str = os.getenv("DEFAULT_MODEL")
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY")
+    WEATHER_API_KEY: str = os.getenv("WEATHER_API_KEY")
 
     class Config:
         env_file = ".env"
