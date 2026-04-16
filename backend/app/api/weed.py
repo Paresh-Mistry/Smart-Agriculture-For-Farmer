@@ -6,10 +6,14 @@ import re
 from typing import List, Literal, Optional
 import cv2
 import google.genai as genai
+import os    
 import google.genai.types as gtypes
 import numpy as np
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile, status
 from ..schemas.weed import OpenCVStats, WeedAnalysisResult, WeedCluster
+from dotenv import load_dotenv
+
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/weed-detection", tags=["Weed Detection"])
@@ -22,7 +26,7 @@ _client: genai.Client | None = None
 def _get_client() -> genai.Client:
     global _client
     if _client is None:
-        api_key = "AIzaSyAqFUWpC2-rjsojuGTVIq1Kawug6ANX9n0"
+        api_key = os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
         if not api_key:
             raise HTTPException(
                 status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
