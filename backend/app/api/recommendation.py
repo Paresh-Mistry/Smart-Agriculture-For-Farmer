@@ -16,6 +16,9 @@ import google.generativeai as genai
 import httpx
 from fastapi import APIRouter, HTTPException, status
 from pydantic import BaseModel, Field, field_validator, model_validator
+from dotenv import load_dotenv
+
+load_dotenv()
 
 warnings.filterwarnings("ignore")
 logger = logging.getLogger(__name__)
@@ -502,7 +505,8 @@ def _sanitise(data: dict) -> dict:
 @router.post("/generate", response_model=CropDetailsResponse)
 async def generate_crop_details(inp: CropDetailsInput):
 
-    api_key = "AIzaSyAqFUWpC2-rjsojuGTVIq1Kawug6ANX9n0"
+    api_key = os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
+
     if not api_key:
         raise HTTPException(
             status_code=503,
