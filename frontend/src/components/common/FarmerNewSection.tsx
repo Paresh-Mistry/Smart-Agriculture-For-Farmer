@@ -69,7 +69,7 @@ Include a realistic mix: 3 Scheme, 2 Subsidy, 2 Insurance, 2 Market, 2 Advisory,
 // ─── API fetch ────────────────────────────────────────────────────────────────
 
 
-const genAI = new GoogleGenerativeAI("AIzaSyAqFUWpC2-rjsojuGTVIq1Kawug6ANX9n0");
+const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GEMINI_API_KEY);
 
 async function fetchFarmerNews(): Promise<NewsItem[]> {
   try {
